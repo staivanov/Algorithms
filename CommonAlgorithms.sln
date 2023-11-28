@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoPlayground", "CommonAlgorithms\AlgoPlayground.csproj", "{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{DFEC2165-CB08-459F-96B6-AA95B60266FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6E787E4-D369-44C9-ACA5-1B6C8957A266}
+	EndGlobalSection
+EndGlobal
