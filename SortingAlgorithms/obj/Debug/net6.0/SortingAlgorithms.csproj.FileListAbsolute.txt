@@ -10,3 +10,15 @@ P:\Architecture\CommonDesignPatterns\CommonAlgorithms\SortingAlgorithms\obj\Debu
 P:\Architecture\CommonDesignPatterns\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\refint\SortingAlgorithms.dll
 P:\Architecture\CommonDesignPatterns\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.pdb
 P:\Architecture\CommonDesignPatterns\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\ref\SortingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\bin\Debug\net6.0\SortingAlgorithms.deps.json
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\bin\Debug\net6.0\SortingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\bin\Debug\net6.0\SortingAlgorithms.pdb
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.AssemblyInfoInputs.cache
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.AssemblyInfo.cs
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.csproj.CoreCompileInputs.cache
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.sourcelink.json
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\refint\SortingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\SortingAlgorithms.pdb
+P:\Algorithms\CommonAlgorithms\SortingAlgorithms\obj\Debug\net6.0\ref\SortingAlgorithms.dll
