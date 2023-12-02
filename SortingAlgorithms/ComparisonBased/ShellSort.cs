@@ -1,7 +1,7 @@
 ﻿namespace SortingAlgorithms.ComparisonBased
 {
     public static class ShellSort
-    {
+    {   //O(n log(n))
         public static int[] Sort(int[] numbers)
         {
             int numbersLen = numbers.Length,
