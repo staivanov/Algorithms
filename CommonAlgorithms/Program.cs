@@ -8,12 +8,14 @@ namespace CommonAlgorithms
         {
             int[] numbs = { 5, 3, 7, 4, 1 };
 
-            int[] sortedNumbers = BubbleSort.Sort(numbs);
 
-            foreach (var number in sortedNumbers)
+            int[] n = ShellSort.Sort(numbs);
+
+            foreach (var item in n)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(item);
             }
+
         }
     }
 }
