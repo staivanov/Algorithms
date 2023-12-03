@@ -25,7 +25,7 @@
                 int temp = numbers[position];
                 numbers[position] = numbers[startIndex];
                 numbers[startIndex] = temp;
-                
+
                 startIndex++;
             }
 
