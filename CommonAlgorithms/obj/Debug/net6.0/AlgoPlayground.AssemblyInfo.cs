@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgoPlayground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05f4dd9c97cc73cb32be53cca4d1e8ab578c7129")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c817ed81a40ad8f155bdbc78f56d9c3334b751ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgoPlayground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgoPlayground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
