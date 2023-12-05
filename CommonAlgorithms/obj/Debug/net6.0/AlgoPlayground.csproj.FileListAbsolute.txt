@@ -36,3 +36,5 @@ P:\Algorithms\CommonAlgorithms\CommonAlgorithms\obj\Debug\net6.0\refint\AlgoPlay
 P:\Algorithms\CommonAlgorithms\CommonAlgorithms\obj\Debug\net6.0\AlgoPlayground.pdb
 P:\Algorithms\CommonAlgorithms\CommonAlgorithms\obj\Debug\net6.0\AlgoPlayground.genruntimeconfig.cache
 P:\Algorithms\CommonAlgorithms\CommonAlgorithms\obj\Debug\net6.0\ref\AlgoPlayground.dll
+P:\Algorithms\CommonAlgorithms\CommonAlgorithms\bin\Debug\net6.0\SearchingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\CommonAlgorithms\bin\Debug\net6.0\SearchingAlgorithms.pdb

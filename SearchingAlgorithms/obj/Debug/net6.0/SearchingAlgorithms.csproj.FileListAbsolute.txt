@@ -1,0 +1,12 @@
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\bin\Debug\net6.0\SearchingAlgorithms.deps.json
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\bin\Debug\net6.0\SearchingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\bin\Debug\net6.0\SearchingAlgorithms.pdb
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.AssemblyInfoInputs.cache
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.AssemblyInfo.cs
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.csproj.CoreCompileInputs.cache
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.sourcelink.json
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\refint\SearchingAlgorithms.dll
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\SearchingAlgorithms.pdb
+P:\Algorithms\CommonAlgorithms\SearchingAlgorithms\obj\Debug\net6.0\ref\SearchingAlgorithms.dll

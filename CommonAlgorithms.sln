@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoPlayground", "CommonAlgorithms\AlgoPlayground.csproj", "{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoPlayground", "CommonAlgorithms\AlgoPlayground.csproj", "{5EF52D4A-57A6-49E5-9A6C-D9B2D578DCE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{DFEC2165-CB08-459F-96B6-AA95B60266FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{DFEC2165-CB08-459F-96B6-AA95B60266FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlgorithms", "SearchingAlgorithms\SearchingAlgorithms.csproj", "{0CD5AD26-6E83-4870-A079-1F0BCBF872CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFEC2165-CB08-459F-96B6-AA95B60266FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD5AD26-6E83-4870-A079-1F0BCBF872CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD5AD26-6E83-4870-A079-1F0BCBF872CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD5AD26-6E83-4870-A079-1F0BCBF872CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD5AD26-6E83-4870-A079-1F0BCBF872CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

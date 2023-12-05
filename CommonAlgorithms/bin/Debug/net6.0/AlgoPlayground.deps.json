@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "AlgoPlayground/1.0.0": {
         "dependencies": {
+          "SearchingAlgorithms": "1.0.0",
           "SortingAlgorithms": "1.0.0"
         },
         "runtime": {
           "AlgoPlayground.dll": {}
+        }
+      },
+      "SearchingAlgorithms/1.0.0": {
+        "runtime": {
+          "SearchingAlgorithms.dll": {}
         }
       },
       "SortingAlgorithms/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "AlgoPlayground/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SearchingAlgorithms/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

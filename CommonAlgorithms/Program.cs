@@ -1,5 +1,4 @@
-﻿using SortingAlgorithms.ComparisonBased;
-
+﻿using SearchingAlgorithms;
 namespace CommonAlgorithms
 {
     public class Program
@@ -7,15 +6,12 @@ namespace CommonAlgorithms
         static void Main()
         {
             int[] numbs = { 101, 14, 65, 5, 3, 7, 4, 1, 99, 99 };
-            int lowerIndex = 0,
-            higherIndex = numbs.Length - 1;
+            int seekingNumber = 5,
+                indexOfSeekingNumber;
 
-            int[] sortedNumbers = QuickSort.Sort(numbs, lowerIndex, higherIndex);
+            indexOfSeekingNumber = LinearSearch.Search(numbs, seekingNumber);
 
-            foreach (int number in sortedNumbers)
-            {
-                Console.WriteLine(number);
-            }
+            Console.WriteLine("The index of seeking number is: " + indexOfSeekingNumber);
         }
     }
 }
