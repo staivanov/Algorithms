@@ -6,16 +6,15 @@ namespace CommonAlgorithms
         static void Main()
         {
             int[] numbs = { 3, 5, 7, 10, 15, 20, 55 };
-            int seekingNumber = 10,
+            int startIndex = 0,
+                lastIndex = numbs.Length,
+                seekingNumber = 10,
                 secondSeekingNumer = 11,
                 seekingNumberIndex,
-                secondSeekingNumberIndex;
+                seekingSecondNumberIndex;
 
-            seekingNumberIndex = BinarySearchIterative.Search(numbs, seekingNumber);
-            secondSeekingNumberIndex = BinarySearchIterative.Search(numbs, secondSeekingNumer);
-
-            Console.WriteLine($"Number is at index: {seekingNumberIndex}");
-            Console.WriteLine($"Number is at index: {secondSeekingNumberIndex}");
+            seekingNumberIndex = BinarySearchRecursion.Search(numbs, seekingNumber, startIndex, lastIndex);
+            seekingSecondNumberIndex = BinarySearchRecursion.Search(numbs, secondSeekingNumer, startIndex, lastIndex);
         }
     }
 }

@@ -5,7 +5,8 @@
         public static int Search(int[] numbers, int number)
         {
             int left = 0,
-                right = numbers.Length;
+                right = numbers.Length,
+                notFound = -1;
 
             while (left < right)
             {
@@ -25,7 +26,7 @@
                 }
             }
 
-            return -1;
+            return notFound;
         }
     }
 }
