@@ -37,8 +37,48 @@
                 _heapSize /= 2;
             }
 
-            _data[_heapSize] = element; 
+            _data[_heapSize] = element;
         }
+
+
+        public int DeleteMax()
+        {
+            if (IsEmpty())
+            {
+                return -1;
+            }
+
+            int element = _data[1];
+            _data[1] = _data[_currentSize];
+            _data[_currentSize] = -1;
+            _currentSize--;
+            int i = 1,
+                j = i * 2;
+
+            while (j <= _currentSize)
+            {
+                if (_data[j] < _data[j + 1])
+                {
+                    j++;
+                }
+
+                if (_data[i] < _data[j])
+                {
+                    int temp = _data[i];
+                    _data[i] = _data[j];
+                    _data[j] = temp;
+                    i = j;
+                    j = i * 2;
+                }
+                else
+                {
+                    break;
+                }         
+            }
+
+            return element;
+        }
+
 
 
         public int Max()
