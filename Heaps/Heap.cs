@@ -92,6 +92,38 @@
         }
 
 
+        public void HeapSort(int[] numbers)
+        {
+            int numbersLen = numbers.Length;
+            Heap heap = new();
+
+            for (int i = 0; i < numbersLen; i++)
+            {
+                heap.Insert(numbers[i]);
+            }
+
+            int k = numbersLen - 1;
+
+            for (int j = 0; j < numbersLen; j++)
+            {
+                numbers[k] = heap.DeleteMax();
+                k--;
+            }          
+        }
+
+
+        public void Display(int[] numbers)
+        {
+            int index = 0;
+
+            while(index < numbers.Length)
+            {
+                Console.Write(numbers[index] + " ");              
+                index++;        
+            }
+        }
+
+
         public int Length() => _currentSize;
         public bool IsEmpty() => _currentSize == 0;
     }

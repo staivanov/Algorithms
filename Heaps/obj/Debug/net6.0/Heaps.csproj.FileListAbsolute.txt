@@ -1,0 +1,15 @@
+P:\Algorithms\CommonAlgorithms\Heaps\bin\Debug\net6.0\Heaps.exe
+P:\Algorithms\CommonAlgorithms\Heaps\bin\Debug\net6.0\Heaps.deps.json
+P:\Algorithms\CommonAlgorithms\Heaps\bin\Debug\net6.0\Heaps.runtimeconfig.json
+P:\Algorithms\CommonAlgorithms\Heaps\bin\Debug\net6.0\Heaps.dll
+P:\Algorithms\CommonAlgorithms\Heaps\bin\Debug\net6.0\Heaps.pdb
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.GeneratedMSBuildEditorConfig.editorconfig
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.AssemblyInfoInputs.cache
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.AssemblyInfo.cs
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.csproj.CoreCompileInputs.cache
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.sourcelink.json
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.dll
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\refint\Heaps.dll
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.pdb
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\Heaps.genruntimeconfig.cache
+P:\Algorithms\CommonAlgorithms\Heaps\obj\Debug\net6.0\ref\Heaps.dll
