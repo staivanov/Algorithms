@@ -17,13 +17,13 @@
         public void RemoveEdge(int u, int v)
             => AdjMatrix[u, v] = 0;
 
-        public bool ExistEdge(int u, int v)
+        public bool IsEdgeExist(int u, int v)
             => AdjMatrix[u, v] != 0;
 
-        public int VerticesCount()
+        public int GetVerticesCount()
             => Vertices;
 
-        public int EdgeCount()
+        public int GetEdgeCount()
         {
             int count = 0,
                 i,
@@ -41,7 +41,8 @@
             return count;
         }
 
-        public void Edges()
+
+        public void GetEdges()
         {
             Console.WriteLine("Edges: ");
             int i,
@@ -57,6 +58,7 @@
                 }
             }
         }
+        
 
         public int Outdegree(int v)
         {
@@ -73,6 +75,7 @@
             return count;
         }
 
+
         public int Indegree(int v)
         {
             int count = 0,
@@ -88,14 +91,15 @@
             return count;
         }
 
+
         public void Display()
         {
             int i,
                 j;
 
-            for(i = 0; i < Vertices; i++)
+            for (i = 0; i < Vertices; i++)
             {
-                for(j = 0; j < Vertices; j++)
+                for (j = 0; j < Vertices; j++)
                 {
                     Console.Write(AdjMatrix[i, j] + "\t");
                 }
