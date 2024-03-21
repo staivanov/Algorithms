@@ -58,7 +58,7 @@
                 }
             }
         }
-        
+
 
         public int Outdegree(int v)
         {
@@ -89,6 +89,36 @@
             }
 
             return count;
+        }
+
+        //Parameter 's' is a start vertex.
+        public void BFS(int s)
+        {
+            int i = s;
+            Queue<int> q = new();
+            int[] visited = new int[Vertices];
+            Console.Write(i + " ");
+            //Vertex 'i' is visited;
+            visited[i] = 1;
+            q.Enqueue(i);
+
+            while (q.Count > 0)
+            {
+                i = q.Dequeue();
+
+                for (int j = 0; j < Vertices; j++)
+                {       //Check is there edge between 'i' and 'j'
+                    bool isThereEdge = AdjMatrix[i, j] == 1,
+                         isVertexVisited = visited[j] == 0;
+
+                    if (isThereEdge && isVertexVisited)
+                    {
+                        Console.Write(j + " ");
+                        visited[j] = 1;
+                        q.Enqueue(j);
+                    }
+                }
+            }
         }
 
 
