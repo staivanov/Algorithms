@@ -4,11 +4,13 @@
     {
         public int Vertices { get; set; }
         public int[,] AdjMatrix { get; set; }
+        public int[] Visited { get; set; }
 
         public GraphsADT(int n)
         {
             Vertices = n;
             AdjMatrix = new int[n, n];
+            Visited = new int[Vertices];
         }
 
         public void InsertEdge(int u, int v, int x)
@@ -109,13 +111,35 @@
                 for (int j = 0; j < Vertices; j++)
                 {       //Check is there edge between 'i' and 'j'
                     bool isThereEdge = AdjMatrix[i, j] == 1,
-                         isVertexVisited = visited[j] == 0;
+                         isVertexNotVisited = visited[j] == 0;
 
-                    if (isThereEdge && isVertexVisited)
+                    if (isThereEdge && isVertexNotVisited)
                     {
                         Console.Write(j + " ");
                         visited[j] = 1;
                         q.Enqueue(j);
+                    }
+                }
+            }
+        }
+
+
+        public void DFS(int s)
+        {
+            bool isNotVisited = Visited[s] == 0;
+
+            if (isNotVisited)
+            {
+                Console.Write(s + " ");
+                Visited[s] = 1;
+
+                for (int j = 0; j < Vertices; j++)
+                {
+                    bool isVortexExist = AdjMatrix[s, j] == 1;
+
+                    if (isVortexExist && Visited[j] == 0)
+                    {
+                        DFS(j);
                     }
                 }
             }

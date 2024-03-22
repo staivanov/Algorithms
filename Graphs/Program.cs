@@ -23,7 +23,7 @@
             g.InsertEdge(5, 3, 1);
             g.InsertEdge(6, 3, 1);
 
-            g.BFS(0);
+            g.DFS(0);
         }
     }
 }
