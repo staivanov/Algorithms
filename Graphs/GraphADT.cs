@@ -112,7 +112,7 @@
                 {       //Check is there edge between 'i' and 'j'
                     bool isThereEdge = AdjMatrix[i, j] == 1,
                          isVertexNotVisited = visited[j] == 0;
-
+                    // This block will execute to all the verces adjacent to vertex 'i'.
                     if (isThereEdge && isVertexNotVisited)
                     {
                         Console.Write(j + " ");
