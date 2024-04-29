@@ -4,20 +4,22 @@
     {   //O(n) 
         public static int[] Sort(int[] numbers)
         {
-            int[] countArray = new int[numbers.Max()+1];
+            int[] countArray = new int[numbers.Max() + 1];
             int numbersLen = numbers.Length,
                 index = 0;
 
             while (index < numbersLen)
             {
-                countArray[numbers[index]] = countArray[numbers[index]] + 1;
+                int number = numbers[index],
+                    countNumber = countArray[number] + 1;
+                countArray[number] = countNumber;
                 index++;
             }
 
             int indexTwo = 0,
                 indexThree = 0;
 
-            while(indexTwo < numbersLen + 1)
+            while (indexTwo <= numbersLen)
             {
                 if (countArray[indexTwo] > 0)
                 {
