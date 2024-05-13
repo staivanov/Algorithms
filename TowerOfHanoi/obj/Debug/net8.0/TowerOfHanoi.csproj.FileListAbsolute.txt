@@ -1,0 +1,15 @@
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\bin\Debug\net8.0\TowerOfHanoi.exe
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\bin\Debug\net8.0\TowerOfHanoi.deps.json
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\bin\Debug\net8.0\TowerOfHanoi.runtimeconfig.json
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\bin\Debug\net8.0\TowerOfHanoi.dll
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\bin\Debug\net8.0\TowerOfHanoi.pdb
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.GeneratedMSBuildEditorConfig.editorconfig
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.AssemblyInfoInputs.cache
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.AssemblyInfo.cs
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.csproj.CoreCompileInputs.cache
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.sourcelink.json
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.dll
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\refint\TowerOfHanoi.dll
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.pdb
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\TowerOfHanoi.genruntimeconfig.cache
+P:\Algorithms\CommonAlgorithms\TowerOfHanoi\obj\Debug\net8.0\ref\TowerOfHanoi.dll
