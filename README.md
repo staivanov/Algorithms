@@ -1,7 +1,7 @@
 ## Popular algorithms
 ## Decription
 This is a project with most popular sorting and searching algorithms. There is also demo code for heaps, graphs and Tower of Hanoi.
-## Table of contents
+## Table of content
 | Name | Type |
 | ---- | ---- |
 | BinarySearch Iterative | Searching algorithm |
